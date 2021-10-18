@@ -1,16 +1,16 @@
-package day02;
+package day01;
 
 public class Human {
 
-    private Sting name;
-    provate int age;
+    private String name;
+    private int age;
 
-    public Human(Sting name, int age) {
+    public Human(String name, int age) {
         this.name = name;
         this.age = age;
     }
 
-    public Sting getName() {
+    public String getName() {
         return name;
     }
 
