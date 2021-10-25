@@ -10,6 +10,6 @@ public class CarMain {
 
         car.setKmRun(452);
         System.out.println("Átlagfogyasztás: "+ car.calculateConsumption());
-        
+
     }
 }
