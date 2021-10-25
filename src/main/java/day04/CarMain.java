@@ -6,12 +6,10 @@ public class CarMain {
         Car car = new Car();
         GasStation gasStation = new GasStation(467);
 
-        System.out.println("Tankolás ára:"+ gasStation.tankCar(car, 30));
+        System.out.println("Tankolás ára: "+ gasStation.tankCar(car, 30));
 
         car.setKmRun(452);
-        System.out.println(car.calculateConsumption());
-
-
+        System.out.println("Átlagfogyasztás: "+ car.calculateConsumption());
+        
     }
-
 }

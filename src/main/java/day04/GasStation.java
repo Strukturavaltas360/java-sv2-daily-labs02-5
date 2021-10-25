@@ -9,7 +9,6 @@ public class GasStation {
     }
 
     public int tankCar(Car car, int liter){
-
         car.setFuel(liter);
         return liter*fuelPrice;
     }
